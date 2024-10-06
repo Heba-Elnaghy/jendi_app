@@ -1,0 +1,36 @@
+PODS:
+  - Flutter (1.0.0)
+  - Sahha (1.0.0)
+  - sahha_flutter (1.0.0):
+    - Flutter
+    - Sahha (= 1.0.0)
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - sahha_flutter (from `.symlinks/plugins/sahha_flutter/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Sahha
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  sahha_flutter:
+    :path: ".symlinks/plugins/sahha_flutter/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  Sahha: 8e783be3ddbf40857ae751b64b52b544f51d37da
+  sahha_flutter: bdecd67a2262f13f6e9f99d5b9076f78a2637c21
+  webview_flutter_wkwebview: 0982481e3d9c78fd5c6f62a002fcd24fc791f1e4
+
+PODFILE CHECKSUM: 1959d098c91d8a792531a723c4a9d7e9f6a01e38
+
+COCOAPODS: 1.15.2
